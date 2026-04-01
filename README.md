@@ -151,3 +151,12 @@ uvicorn app:app --reload
 - Built using Flutter
 - Communicates with FastAPI backend
 - Provides real-time crop recommendations to farmers
+
+---
+
+## 🔗 LinkedIn Project Section (Copy & Paste)
+
+**AgriSense – Smart Crop Recommendation System**
+Developed an AI-powered crop recommendation system for 15 Karnataka districts using district-specific machine learning models. Built a FastAPI backend and Flutter mobile app to deliver top-3 crop suggestions based on soil nutrients, weather conditions, and season. Integrated Supabase for authentication and prediction history.
+
+**Tech:** Python, Scikit-learn, XGBoost, LightGBM, CatBoost, FastAPI, Flutter, Supabase.
