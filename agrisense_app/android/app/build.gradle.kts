@@ -31,7 +31,17 @@ android {
     }
 
     buildTypes {
-        release {
+        buildTypes {
+            release {
+                // TODO: Add your own signing config for the release build.
+                // Signing with the debug keys for now, so `flutter run --release` works.
+                isDebuggable = false
+                // ADD THIS LINE TO ENABLE OBFUSCATION FOR RELEASE BUILD CONFIGURATION:
+                minifyEnabled true
+                proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+            }
+        }
+        By adding this line of code, you ensure that any potential vulnerabilities related to debug symbols or unencrypted data in the release version of your application are mitigated. This helps protect against reverse engineering attempts by attackers who may be trying to exploit known weaknesses in your app's security posture.
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
