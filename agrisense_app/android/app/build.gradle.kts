@@ -32,6 +32,31 @@ android {
 
     buildTypes {
         buildTypes {
+            buildTypes {
+                release {
+                    // TODO: Add your own signing config for the release build.
+                buildTypes {
+        RULE: kotlin:S7204
+        ISSUE: Make sure that obfuscation is enabled in the release build configuration.
+        - Fix the security vulnerability described in the issue
+        - Preserve existing functionality
+        - Follow language best practices
+        - Add security comment if needed
+        None available
+        - Return ONLY the fixed code to replace the VULNERABLE CODE.
+        - NO explanations, NO comments, NO markdown fences.
+        - Preserve exact functionality of the surrounding context.
+        - Fix ONLY the security issue.
+        - Maintain the same variable names and logic flow where possible.
+        buildTypes {
+            buildTypes {
+                release {
+                    // TODO: Add your own signing config for the release build.
+                buildTypes {
+        RULE: kotlin:S7204
+        ISSUE: Make sure that obfuscation is enabled in the release build configuration.
+        - Fix the security vulnerability described in the issue
+        - Preserve existing functionality
             release {
                 // TODO: Add your own signing config for the release build.
                 // Signing with the debug keys for now, so `flutter run --release` works.
